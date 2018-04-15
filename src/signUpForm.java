@@ -242,8 +242,8 @@ public class signUpForm extends javax.swing.JFrame {
         if(status == REGISTRATION_DETAILS_VALID)
         {            
             JOptionPane.showMessageDialog(null,"Welcome ! You have successfully registered.");
-//            new LoginFO();
             dispose();
+            new logInForm();
         }
         else if(status == INVALID_EMAIL_ID)
             JOptionPane.showMessageDialog(null,"Please enter a valid email id.");
